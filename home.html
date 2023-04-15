@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="sectionHome">
+        <div class="cinema-bg-container d-flex flex-column justify-content-end">
+            <div class="cinema-card-container">
+            <h1>Cinema Industry</h1>
+            <p>This is all about cinema industry.</p>
+            <button class="button" onclick="display('sectionFavouritePlaces')">Get started</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionFavouritePlaces">
+
+        <div class="favourite-actors-bg-container">
+            <h1 class="favourite-actors-heading">Favourite Actors</h1>
+        <div class="favorite-actor-card-container d-flex flex-row justify-content-start"onclick="display('sectionJuniorNtrDetailedView')">
+            <div>
+            <h1 class="favourite-actor-card-heading">Junior NTR</h1>
+            <p class="favourite-actor-card-description">Rama Rao was born on 20 May 1983 as son to film actor and politician, Nandamuri Harikrishna and Shalini Bhaskar Rao. His father is of Telugu descent and his mother is a Kannadiga, who hails from Kundapur, Karnataka. He is the grandson of Telugu actor and former Chief Minister of Andhra Pradesh, N. T. Rama Rao.</p>
+            </div>
+            <img
+            src="https://www.filmibeat.com/img/162x203/popcorn/profile_photos/jr-ntr-20211227113010-4308.jpg"
+            class="favourite-place-card-image"/>
+        </div>
+        <div class="favorite-actor-card-container d-flex flex-row justify-content-start"onclick="display('sectionRamCharanDetailedView')">
+            <div>
+            <h1 class="favourite-actor-card-heading">Ram charan</h1>
+            <p class="favourite-actor-card-description">Konidela Ram Charan Teja (born 27 March 1985) is an Indian actor, producer, and entrepreneur who works predominantly in Telugu films. One of the highest-paid Telugu film actors, he is the recipient of three Filmfare Awards and two Nandi Awards. Since 2013, he has featured in Forbes India's Celebrity 100 list.</p>
+            </div>
+            <img
+            src="https://www.teahub.io/photos/full/87-873047_telugu…tors-hd-wallpapers-group-telugu-actors-images.jpg"
+            class="favourite-place-card-image"/>
+        </div>
+        <div class="favorite-actor-card-container d-flex flex-row justify-content-start"onclick="display('sectionPrabhasDetailedView')">
+            <div>
+            <h1 class="favourite-actor-card-heading">Prabhas</h1>
+            <p class="favourite-actor-card-description">He won the state Nandi Award for Best Actor for his performance in Mirchi.He won the state Nandi Award for Best Actor for his performance in Mirch. In 2015, Prabhas starred in the title role in S. S.</p>
+            </div>
+            <img
+            src="https://wallpapercave.com/wp/wp3146776.jpg"
+            class="favourite-place-card-image"/>
+        </div>
+        <div class="favorite-actor-card-container d-flex flex-row justify-content-start"onclick="display('sectionMaheshBabuDetailedView')">
+            <div>
+            <h1 class="favourite-actor-card-heading">Mahesh Babu</h1>
+            <p class="favourite-actor-card-description">Ghattamaneni Mahesh Babu (born 9 August 1975) is an Indian actor, producer, media personality, and philanthropist who works mainly in Telugu cinema.Ghattamaneni Mahesh Babu (born 9 August 1975) is an Indian actor, producer, media personality, and philanthropist who works mainly in Telugu cinema.
+            </p>
+            </div>
+            <img
+            src="https://i.pinimg.com/736x/66/37/5f/66375f8e1007436f9d1ad688a64b96ad.jpg"
+            class="favourite-place-card-image"/>
+        </div>
+        <button class="btn btn-dark" onclick="display('sectionHome')">back</button>
+        </div>
+    </div>
+    <div id="sectionJuniorNtrDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="JuniorNtrCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#JuniorNtrCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#JuniorNtrCarousel" data-slide-to="1"></li>
+                    <li data-target="#JuniorNtrCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img
+                        src="https://www.teahub.io/photos/full/51-516737_jr-ntr-hd-photos-wallpapers-25900-ntr-new.png"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    </div>
+                    <div class="carousel-item">
+                    <img
+                        src="https://www.teahub.io/photos/full/51-516737_jr-ntr-hd-photos-wallpapers-25900-ntr-new.png"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    </div>
+                    <div class="carousel-item">
+                    <img
+                        src="https://www.teahub.io/photos/full/51-516737_jr-ntr-hd-photos-wallpapers-25900-ntr-new.png"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#JuniorNtrCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#JuniorNtrCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                <h1 class="detailed-view-card-heading">Junior Ntr</h1>
+                <p class="detailed-view-card-description">
+                    Nandamuri Taraka Rama Rao Jr. (born 20 May 1983), also known as Jr NTR or Tarak, is an Indian actor who primarily works in Telugu cinema. One of the highest paid Telugu film actors,[1][2] Rama Rao Jr. has won several accolades, including two Filmfare Awards, two state Nandi Awards, and four CineMAA Awards. Since 2012, he has been featured in Forbes India Celebrity 100 list.[3]
+
+                    Grandson of Indian matinee idol, N. T. Rama Rao Sr. who was also the former Chief Minister of the Indian state of Andhra Pradesh,[4] Rama Rao Jr. started his career as a child actor in Brahmarshi Viswamitra. Rama Rao Jr. also starred as a child actor in the lead role as Rama in Ramayanam (1997), which won the National Film Award for Best Children's Film that year. He made his debut as a lead actor with the commercial failure Ninnu Choodalani (2001). He rose to prominence with the coming-of-age film Student No. 1 (2001) and the action drama Aadi (2002).
+                    
+                    Rama Rao Jr. established himself as a leading actor in Telugu cinema with works such as Simhadri (2003), Rakhi (2006), Yamadonga (2007), Adhurs (2010), Brindavanam (2010), Baadshah (2013), Temper (2015), Nannaku Prematho (2016), Janatha Garage (2016), Jai Lava Kusa (2017), Aravinda Sametha Veera Raghava (2018), and RRR (2022), the latter being his highest-grossing release. He won two Filmfare Awards for Best Actor – Telugu for his performances in Yamadonga and Nannaku Prematho. Rama Rao Jr. is also notable in the television industry. In 2017, he hosted the first season of the Telugu language reality TV show Bigg Boss on Star Maa. Rama Rao Jr. started hosting the fifth season of Evaru Meelo Koteeswarulu in 2021 on Gemini TV.
+                </p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">
+                Go to Section favourite places
+            </button>
+            </div>
+    </div>
+    <div id="sectionRamCharanDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="RamCharanCorosel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#RamCharanCorosel" data-slide-to="0" class="active"></li>
+                    <li data-target="#RamCharanCorosel" data-slide-to="1"></li>
+                    <li data-target="#RamCharanCorosel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img
+                        src="https://coolwallpapers.me/picsup/5570935-ram-charan-wallpapers.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    </div>
+                    <div class="carousel-item">
+                    <img
+                        src="https://coolwallpapers.me/picsup/5570935-ram-charan-wallpapers.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    </div>
+                    <div class="carousel-item">
+                    <img
+                        src="https://coolwallpapers.me/picsup/5570935-ram-charan-wallpapers.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#RamCharanCorosel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#RamCharanCorosel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                <h1 class="detailed-view-card-heading">Ram Charan</h1>
+                <p class="detailed-view-card-description">
+                    Konidela Ram Charan Teja (born 27 March 1985) is an Indian actor, producer, and entrepreneur who works predominantly in Telugu films. One of the highest-paid Telugu film actors,[3] he is the recipient of three Filmfare Awards and two Nandi Awards. Since 2013, he has featured in Forbes India's Celebrity 100 list.
+
+                    Charan made his acting debut with Chirutha (2007), a box office hit, winning the Filmfare Best Male Debut Award. He rose to prominence starring in S. S. Rajamouli's fantasy action film Magadheera (2009), the highest-grossing Telugu film of all time at the time, winning the Filmfare Best Actor Award. His notable works include Racha (2012), Naayak (2013), Yevadu (2014), Govindudu Andarivadele (2014), and Dhruva (2016). Charan then starred in the blockbusters Rangasthalam (2018), winning his second Filmfare Best Actor Award, and RRR (2022), that collected over ₹1,200 crore (US$150 million).
+                    
+                    In 2016, Charan launched his own production house Konidela Production Company, which has notably backed Khaidi No. 150 (2017) and Sye Raa Narasimha Reddy (2019). Beyond his film career, he owns the polo team Hyderabad Polo and Riding Club and co-owns the regional airline service TruJet
+                </p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">
+                Go to Section favourite places
+            </button>
+            </div>
+    </div>
+    <div id="sectionPrabhasDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="PrabhasIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#PrabhasIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#PrabhasIndicators" data-slide-to="1"></li>
+                    <li data-target="#PrabhasIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM_mvlet0pI8pCLVDqLuzAaU1lL2q_uoPWCQ&usqp=CAU"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    </div>
+                    <div class="carousel-item">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM_mvlet0pI8pCLVDqLuzAaU1lL2q_uoPWCQ&usqp=CAU"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    </div>
+                    <div class="carousel-item">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM_mvlet0pI8pCLVDqLuzAaU1lL2q_uoPWCQ&usqp=CAU"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#PrabhasIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#PrabhasIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                <h1 class="detailed-view-card-heading"Prabhas</h1>
+                <p class="detailed-view-card-description">
+                    Uppalapati Venkata Suryanarayana Prabhas Raju (born 23 October 1979), known mononymously as Prabhas ([pɾabʱaːs]), is an Indian actor who works predominantly in Telugu cinema. One of the highest-paid actors in Indian cinema,[4] Prabhas has featured in Forbes India's Celebrity 100 list three times since 2015 based on his income and popularity.[5][6][7] He has received seven Filmfare Awards South nominations and is a recipient of the Nandi Award and the SIIMA Award.
+
+Prabhas made his acting debut with the 2002 Telugu drama Eeswar, and later attained his breakthrough with the romantic action film Varsham (2004). His notable works include Chatrapathi (2005), Bujjigadu (2008), Billa (2009), Darling (2010), Mr. Perfect (2011), and Mirchi (2013). He won the state Nandi Award for Best Actor for his performance in Mirchi.[8][9] In 2015, Prabhas starred in the title role in S. S. Rajamouli's epic action film Baahubali: The Beginning, which is the fourth-highest-grossing Indian film to date. He later reprised his role in its sequel, Baahubali 2: The Conclusion (2017), which became the first Indian film ever to gross over ₹1,000 crore (US$155 million) in all languages in just ten days, and is the second-highest-grossing Indian film to date.
+
+In addition to acting in films, Prabhas is also the brand ambassador for the Mahindra TUV300. He is the first Telugu actor to receive a wax sculpture at Madame Tussaud's wax museum.[10]
+                </p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">
+                Go to Section Favorite places
+            </button>
+            </div>
+    </div>
+    <div id="sectionMaheshBabuDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="MaheshIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#MaheshIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#MaheshIndicators" data-slide-to="1"></li>
+                    <li data-target="#MaheshIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img
+                        src="https://i.pinimg.com/originals/14/fc/43/14fc43fc2458132151b7d5258436168a.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    </div>
+                    <div class="carousel-item">
+                    <img
+                        src="https://i.pinimg.com/originals/14/fc/43/14fc43fc2458132151b7d5258436168a.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    </div>
+                    <div class="carousel-item">
+                    <img
+                        src="https://i.pinimg.com/originals/14/fc/43/14fc43fc2458132151b7d5258436168a.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#MaheshIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#MaheshIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                <h1 class="detailed-view-card-heading">Mahesh Babu</h1>
+                <p class="detailed-view-card-description">
+                    Ghattamaneni Mahesh Babu (born 9 August 1975) is an Indian actor, producer, media personality, and philanthropist who works mainly in Telugu cinema. He has appeared in more than 25 films, and won several accolades including, eight Nandi Awards, five Filmfare Telugu Awards, four SIIMA Awards, three CineMAA Awards, and one IIFA Utsavam Award. One of the highest-paid Telugu film actors,[3] he also owns the production house G. Mahesh Babu Entertainment.
+                </p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionFavouritePlaces')">
+                Go to Section favourite places
+            </button>
+            </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+</html>
